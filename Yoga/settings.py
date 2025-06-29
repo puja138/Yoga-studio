@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-wdjri6d(d*(s^m5gugpl98*mci66h9i92$x(8mxx5j&c8@25xk
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -117,6 +117,9 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [ BASE_DIR / 'main/static' ]
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+
+
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
