@@ -1,0 +1,393 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Yoga Studio</title>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+  <!-- ✅ Navbar (Optional) -->
+  <div class="navbar transparent-nav">
+    <div class="logo">
+      <img src="{% static 'images/meditation.logo.png' %}" alt="Yoga Logo" class="logo-img-xl">
+      <span>Yoga Bliss</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+
+      <li><a href="#schedule">Schedule</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+  <section class="hero-section">
+    <img src="{% static 'images/woman-sitting-yoga-pose-beach.home.jpg' %}" class="hero-img" alt="Yoga Hero">
+    <div class="hero-caption">
+      <h1>Find Strength in Stillness</h1>
+      <p>When you listen to yourself, everything comes naturally.</p>
+      <a href="#contact" class="custom-btn">Get Started</a>
+    </div>
+  </section>
+
+  <section class="styles-of-yoga-section">
+    <div class="intro-block">
+      <h1 class="styles-heading">Many Styles of Yoga</h1>
+      <p class="styles-description">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit itaque voluptatum eligendi sit
+        quibusdam. Maxime, amet possimus. Incidunt hic ipsum aliquid est ipsam esse dolore vel saepe nemo,
+        recusandae exercitationem laboriosam aperiam ab sapiente.
+      </p>
+      <button class="learn-more-btn">Learn More</button>
+    </div>
+  </section>
+
+
+  <div class="yoga-style-group">
+    <!-- Yoga Styles 1–4 -->
+    <div class="yoga-style-card">
+      <h3>1. Hatha Yoga</h3>
+      <p>Hatha Yoga is a gentle introduction to the basic yoga postures. Perfect for beginners and promotes relaxation.
+      </p>
+
+    </div>
+    <div class="yoga-style-card">
+      <h3>2. Vinyasa Yoga</h3>
+      <p>Vinyasa is a dynamic practice linking breath and movement. It builds strength and endurance.</p>
+
+    </div>
+    <div class="yoga-style-card">
+      <h3>3. Ashtanga Yoga</h3>
+      <p>Ashtanga Yoga follows a specific sequence of poses practiced in a vigorous style. Best for experienced yogis.
+      </p>
+
+    </div>
+    <div class="yoga-style-card">
+      <h3>4. Yin Yoga</h3>
+      <p>Yin Yoga focuses on passive stretches held for longer periods. It improves flexibility and joint health.</p>
+
+    </div>
+  </div>
+
+  <div class="yoga-style-group">
+    <!-- Yoga Styles 5–8 -->
+    <div class="yoga-style-card">
+      <h3>5. Power Yoga</h3>
+      <p>Power Yoga is a fitness-based yoga style emphasizing strength and flexibility through fast-paced flows.</p>
+
+    </div>
+    <div class="yoga-style-card">
+      <h3>6. Restorative Yoga</h3>
+      <p>Restorative Yoga uses props to support the body in restful poses. Ideal for stress relief and recovery.</p>
+
+    </div>
+    <div class="yoga-style-card">
+      <h3>7. Kundalini Yoga</h3>
+      <p>Kundalini Yoga combines breath, movement, and meditation to awaken spiritual energy within.</p>
+
+    </div>
+    <div class="yoga-style-card">
+      <h3>8. Iyengar Yoga</h3>
+      <p>Iyengar Yoga emphasizes precision and alignment, often using props for support and posture correction.</p>
+
+    </div>
+  </div>
+
+  <div class="yoga-style-group">
+    <!-- Yoga Styles 9–12 -->
+    <div class="yoga-style-card">
+      <h3>9. Bikram Yoga</h3>
+      <p>Bikram is a hot yoga style that includes a fixed sequence of 26 postures in a heated room.</p>
+
+    </div>
+    <div class="yoga-style-card">
+      <h3>10. Aerial Yoga</h3>
+      <p>Aerial Yoga involves using a hammock to support poses, combining yoga with acrobatics and fun.</p>
+
+    </div>
+    <div class="yoga-style-card">
+      <h3>11. Prenatal Yoga</h3>
+      <p>Designed for pregnant individuals, this style helps with flexibility, strength, and stress reduction.</p>
+
+    </div>
+    <div class="yoga-style-card">
+      <h3>12. Chair Yoga</h3>
+      <p>Chair Yoga is a gentle form of yoga done while sitting or using a chair for support. Great for seniors.</p>
+
+    </div>
+  </div>
+  </section>
+
+  <!-- 🧘‍♀️ Yoga Instructor Section -->
+  <section class="yoga-instructor-section">
+    <div class="instructor-container">
+      <h2 class="instructor-heading">Yoga Instructors</h2>
+      <p class="instructor-description">
+        Meet our experienced and inspiring female yoga instructors who bring unique styles, compassion,
+        and wisdom to every session. Whether you're a beginner or a seasoned yogi, their guidance
+        will help you explore, grow, and stay centered on your wellness journey.
+      </p>
+
+      <div class="yoga-card-container">
+        <!-- Cards from your existing code here (Card 1 to Card 5) -->
+        <!-- 🧘 Card 1 -->
+        <div class="yoga-card">
+          <img src="{% static 'images/pexels-elly-fairytale-3822906.yoga1.jpg' %}" alt="Yoga Pose 1">
+          <h3>Seane Corn</h3>
+          <p>Focuses on physical postures and breathing to align your body and mind.</p>
+          <a href="#contact" class="join-btn">Join Now</a>
+        </div>
+
+        <!-- 🧘 Card 2 -->
+        <div class="yoga-card">
+          <img src="{% static 'images/alireza-skndari-VU3HQFJBh3A-unsplash.yogas.jpg' %}" alt="Yoga Pose 2">
+          <h3>Shiva Rea</h3>
+          <p>A dynamic sequence of poses that flow with your breath and rhythm.</p>
+          <a href="#contact" class="join-btn">Join Now</a>
+        </div>
+
+        <!-- 🧘 Card 3 -->
+        <div class="yoga-card">
+          <img src="{% static 'images/alex-shaw-wJGhAhqvUaQ-unsplash.yogau.jpg' %}" alt="Yoga Pose 3">
+          <h3>Tara Stiles</h3>
+          <p>Slow-paced style that targets deep connective tissues for relaxation.</p>
+          <a href="#contact" class="join-btn">Join Now</a>
+        </div>
+
+        <!-- 🧘 Card 4 -->
+        <div class="yoga-card">
+          <img src="{% static 'images/dane-wetton-t1NEMSm1rgI-unsplash.yogat.jpg' %}" alt="Yoga Pose 4">
+          <h3>Rachel Brathen</h3>
+          <p>A powerful and structured style to build strength, flexibility, and discipline.</p>
+          <a href="#contact" class="join-btn">Join Now</a>
+        </div>
+
+        <!-- 🧘 Card 5 -->
+        <div class="yoga-card">
+          <img src="{% static 'images/pexels-pixabay-460307.yogad.jpg' %}" alt="Yoga Pose 5">
+          <h3>Adriene Mishler</h3>
+          <p>Calms your nervous system with restful poses held for longer durations.</p>
+          <a href="#contact" class="join-btn">Join Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 🎥 Background Video Section -->
+  <section class="yoga-video-section">
+    <video autoplay muted loop playsinline class="background-video">
+      <source src="{% static 'videos/4110586-uhd_3840_2160_30fps.back.mp4' %}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="video-overlay-content">
+      <h2>Experience the Energy of Yoga</h2>
+      <p>Flow with the rhythm of breath and body</p>
+    </div>
+  </section>
+
+  <!-- 🌈 3 Highlights Box Section -->
+  <section class="highlight-section">
+    <div class="highlight-container">
+      <div class="highlight-box box1">
+        <h3>Certified Trainers</h3>
+        <p>All our yoga instructors are certified with years of experience to guide you safely and mindfully.</p>
+      </div>
+      <div class="highlight-box box2">
+        <h3>Peaceful Environment</h3>
+        <p>Our studio is calm, green, and ideal for deep relaxation, meditation, and healing energy.</p>
+      </div>
+      <div class="highlight-box box3">
+        <h3>Flexible Timings</h3>
+        <p>We offer early morning, mid-day, and evening sessions — perfect for your lifestyle.</p>
+      </div>
+    </div>
+  </section>
+  <section class="detailed-about-section">
+
+    <!-- 🌿 Styled About Section Heading -->
+    <section class="yoga-studio-heading-section">
+      <div class="about-heading-container">
+        <h2>About Our Yoga Studio</h2>
+        <p>
+          Yoga is more than just a physical exercise — it's a deep spiritual journey.<br>
+          We believe in the transformative power of mindful movement, stillness, and breath.<br>
+          Our goal is to create a safe space where everyone can reconnect with their inner self.<br>
+          Experience calm, energy, and balance — one breath at a time.
+        </p>
+      </div>
+    </section>
+    <section>
+      <!-- Block 1: Image Left -->
+      <div class="about-content-block">
+        <img src="{% static 'images/david-whipple-PktK6GuC3U4-unsplash.abouts.jpg' %}" alt="Yoga Mission">
+        <div class="text">
+          <h3>Our Mission</h3>
+          <p>We aim to bring holistic health to everyone through traditional and modern yoga practices.Lorem, ipsum
+            dolor sit amet consectetur adipisicing elit. Cumque amet distinctio recusandae adipisci ullam! Odio nobis
+            fuga perspiciatis rerum explicabo est exercitationem, tempora temporibus porro reiciendis dolores sint non
+            id voluptatum magni aliquam quo!Lorem,
+            ipsum dolor sit amet consectetur adipisicing elit. Cumque amet distinctio recusandae adipisci ullam! Odio
+            nobis fuga perspiciatis rerum explicabo est exercitationem, tempora temporibus porro reiciendis dolores sint
+            non id voluptatum magni aliquam quo
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque amet distinctio recusandae adipisci ullam!
+            Odio nobis fuga perspiciatis rerum explicabo est exercitationem, tempora temporibus porro reiciendis dolores
+            sint non id voluptatum magni aliquam quo
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque amet distinctio recusandae adipisci ullam!
+            Odio nobis fuga perspiciatis rerum explicabo est exercitationem, tempora temporibus porro reiciendis dolores
+            sint non id voluptatum magni aliquam quo
+          </p>
+        </div>
+      </div>
+
+      <!-- Block 2: Image Right -->
+      <div class="about-content-block reverse">
+        <div class="text">
+          <h3>Our Founder</h3>
+          <p>Founded by a certified yoga master with 15+ years of experience in holistic wellness.Lorem, ipsum dolor sit
+            amet consectetur adipisicing elit. Cumque amet distinctio recusandae adipisci ullam! Odio nobis fuga
+            perspiciatis rerum explicabo est exercitationem, tempora temporibus porro reiciendis dolores sint non id
+            voluptatum magni aliquam quo!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque amet distinctio recusandae adipisci ullam!
+            Odio nobis fuga perspiciatis rerum explicabo est exercitationem, tempora temporibus porro reiciendis dolores
+            sint non id voluptatum magni aliquam quo
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque amet distinctio recusandae adipisci ullam!
+            Odio nobis fuga perspiciatis rerum explicabo est exercitationem, tempora temporibus porro reiciendis dolores
+            sint non id voluptatum magni aliquam quo
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque amet distinctio recusandae adipisci ullam!
+            Odio nobis fuga perspiciatis rerum explicabo est exercitationem, tempora temporibus porro reiciendis dolores
+            sint non id voluptatum magni aliquam quo
+          </p>
+        </div>
+        <img src="{% static 'images/pexels-augustocarneirojr-30479362.aboutf.jpg' %}" alt="Yoga Founder">
+      </div>
+
+      <!-- Block 3: Image Left -->
+      <div class="about-content-block">
+        <img src="{% static 'images/pexels-olly-917732.aboute.jpg' %}" alt="Yoga Classes">
+        <div class="text">
+          <h3>Our Classes</h3>
+          <p>From Vinyasa to Hatha, we offer classes for all age groups with personalized guidance.Lorem, ipsum dolor
+            sit amet consectetur adipisicing elit. Cumque amet distinctio recusandae adipisci ullam! Odio nobis fuga
+            perspiciatis rerum explicabo est exercitationem, tempora temporibus porro reiciendis dolores sint non id
+            voluptatum magni aliquam quo!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque amet distinctio recusandae adipisci ullam!
+            Odio nobis fuga perspiciatis rerum explicabo est exercitationem, tempora temporibus porro reiciendis dolores
+            sint non id voluptatum magni aliquam quo
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque amet distinctio recusandae adipisci ullam!
+            Odio nobis fuga perspiciatis rerum explicabo est exercitationem, tempora temporibus porro reiciendis dolores
+            sint non id voluptatum magni aliquam quo
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque amet distinctio recusandae adipisci ullam!
+            Odio nobis fuga perspiciatis rerum explicabo est exercitationem, tempora temporibus porro reiciendis dolores
+            sint non id voluptatum magni aliquam quo
+          </p>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="review-section">
+      <h2 class="review-heading">What Our Students Say</h2>
+
+      <div class="review-cards-container">
+        <!-- Review 1 -->
+        <div class="review-card">
+          <p class="review-text">"Joining this studio changed my life! The instructors are incredibly kind and skilled."
+          </p>
+          <div class="review-footer">
+            <span class="review-name">– Priya Sharma</span>
+            <span class="review-stars">★★★★★</span>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="review-card">
+          <p class="review-text">"A calm, welcoming space for yoga. I feel more energetic and balanced every day."</p>
+          <div class="review-footer">
+            <span class="review-name">– Ankit Verma</span>
+            <span class="review-stars">★★★★☆</span>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="review-card">
+          <p class="review-text">"Best yoga experience! Each session feels like a gift to the mind and body."</p>
+          <div class="review-footer">
+            <span class="review-name">– Nisha Kapoor</span>
+            <span class="review-stars">★★★★★</span>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <p class="review-text">"Best yoga experience! Each session feels like a gift to the mind and body."</p>
+          <div class="review-footer">
+            <span class="review-name">– Naina Kapoor</span>
+            <span class="review-stars">★★★★★</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 🌟 Premium Contact/Join Form Section -->
+    <section class="join-contact-section">
+      <h3 class="form-heading">Join Our Yoga Community</h3>
+      <form method="POST" class="premium-form">
+        {% csrf_token %}
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="tel" name="phone" placeholder="Phone Number" required>
+        </div>
+        <div class="form-row">
+          <input type="email" name="email" placeholder="Email Address" required>
+          <select name="seat" required>
+            <option value="" disabled selected>Book Your Seat</option>
+            <option value="Morning Batch">Morning Batch</option>
+            <option value="Evening Batch">Evening Batch</option>
+            <option value="Weekend Only">Weekend Only</option>
+          </select>
+        </div>
+        <button type="submit" class="join-btn">Join Now</button>
+      </form>
+    </section>
+
+    <!-- 🌙 Dark Footer Section -->
+    <footer class="footer-section">
+      <div class="footer-container">
+
+        <!-- 🔗 Social Media Links -->
+        <div class="footer-item">
+          <h3>Follow Us</h3>
+          <a href="https://www.facebook.com/" target="_blank">Facebook</a><br>
+          <a href="https://www.instagram.com/" target="_blank">Instagram</a><br>
+          <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+        </div>
+
+        <!-- 🕒 Opening Hours -->
+        <div class="footer-item">
+          <h3>Opening Hours</h3>
+          <p>Sunday - Monday: 7:00 AM – 9:00 PM</p>
+        </div>
+
+        <!-- 📍 Location -->
+        <div class="footer-item">
+          <h3>Location</h3>
+          <p>Yoga Studio, 123 Main Street,<br>New York, NY, USA</p>
+        </div>
+
+        <!-- 📍 Location + Contact Info -->
+        <div class="footer-item">
+          <h3>Contact Us</h3>
+          <p>Yoga Studio, 123 Main Street,<br>New York, NY, USA</p>
+          <p>Email: <a href="mailto:info@yogastudio.com">info@yogastudio.com</a></p>
+          <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+        </div>
+
+      </div>
+    </footer>
+</body>
+
+</html>
