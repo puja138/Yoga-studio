@@ -1,0 +1,44 @@
+# 🧘‍♀️ Yoga Studio
+
+Welcome to **Yoga Studio** — a beautifully designed, responsive single-page website for a modern Yoga Studio, Instructor, or Wellness Center.
+
+This project combines clean **frontend development** with a **Django backend** for easy deployment and future scalability.
+
+---
+
+## 🌟 **Features**
+
+✅ Single-page premium design  
+✅ Hero banner with call-to-action  
+✅ Yoga styles/cards grid section  
+✅ Instructor bio section  
+✅ Video background section  
+✅ Customer reviews/testimonials  
+✅ Contact form at the bottom:
+   - Name
+   - Phone Number
+   - Email
+   - Book Seat / Join Now button
+   - Attractive shadow, hover effect & modern typography
+
+✅ Fully **mobile responsive** layout with Flipkart/Amazon style grid breakpoints  
+✅ Easy to customize & scale for real client projects
+
+---
+
+## 📊 **Tech Stack**
+
+| **Languages & Tools** | **Percentage** |
+|------------------------|-----------------|
+| **CSS**               | 46.9%           |
+| **JavaScript**        | 42.4%           |
+| **HTML**              | 6.6%            |
+| **Python (Django)**   | 4.1%            |
+
+> 📝 **Note:** This project is intentionally frontend-heavy to showcase strong design and responsiveness.
+Django backend is used for serving templates and managing static files — ready to scale with more backend logic in future.
+
+---
+
+## 📂 **Project Structure**
+
