@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: yoga-studio
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn Yoga.wsgi
+    plan: free
